@@ -1,7 +1,6 @@
 import requests
 import json
 
-#API_KEY = "dabb41bdfbeb488eaa812971ce14a172"
 
 api_url = 'https://api.github.com/users/octocat'
 
