@@ -1,10 +1,8 @@
 import requests
 import json
 
-
 api_url = 'https://api.github.com/users/octocat'
 
-# 3 Step-> Fetch Data, Print Data, Save Data
 
 # Function to fetch data
 def fetch_github_user():
@@ -33,6 +31,7 @@ def save_to_json(data):
 
 # Main function (program starts here)
 def main():
+    # 3 Steps-> Fetch Data, Print Data, Save Data
     # Fetch data from Github API
     user_data = fetch_github_user()
 
